@@ -352,7 +352,7 @@
             </div>
         </section>
     </main>
-    <!-- ========== footer ===== -->
+    <!-- ----------- footer ----- -->
     <footer class="page-footer">
         <div class="container footer-container">
                 <div class="footer-logo-box">
@@ -394,5 +394,58 @@
                 </div>
         </div>
     </footer>
+    <!-- ---------- backdrop ----- -->
+    <div class="backdrop is-open">
+        <div class="modal">
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <button type="button" class="modal-close">
+                <svg class="modal-close-ikon" width="8" height="8">
+                    <use href="./images/icons.svg#close"></use>
+                </svg>
+            </button>
+            <form>
+                <div class="form-wrapper">
+                    <label class="form-user-lable" for="form-user">Name</label>
+                    <div class="form-user-icon-wrap">
+                        <input class="form-user-input" type="text" title="Denis" id="form-user" name="form-user" required pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+">
+                        <svg class="form-user-icon" width="12" height="12">
+                            <use href="./images/icons.svg#user-name"></use>
+                        </svg>
+                    </div>
+                    <label class="form-phone-lable" for="form-phone">Phone</label>
+                    <div class="form-phone-icon-wrap">
+                        <input class="form-phone-input" type="text" title="Denis" id="form-phone" name="form-phone" required
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+                        <svg class="form-phone-icon" width="13" height="13">
+                            <use href="./images/icons.svg#user-phone"></use>
+                        </svg>
+                    </div>
+                    <label class="form-email-lable" for="form-email">Email</label>
+                    <div class="form-email-icon-wrap">
+                        <input class="form-email-input" type="text" title="Denis" id="form-email" name="form-email" required
+                            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+">
+                        <svg class="form-email-icon" width="15" height="12">
+                            <use href="./images/icons.svg#user-email"></use>
+                        </svg>
+                    </div>
+                    <div class="form-comment-wrap">
+                        <label class="form-comment-lable" for="form-comment">Comment</label>
+                        <textarea class="form-comment" name="form-comment" id="form-comment" placeholder="Text input"></textarea>
+                    </div>
+                    <div class="form-check-wrap">
+                        <input class="form-checkbox visually-hidden" type="checkbox" name="checkbox" id="form-checkbox" required>
+                        <label class="form-checkbox-lable" for="form-checkbox">
+                            <span class="castom-check">
+                                <svg width="10" height="8">
+                                    <use href="./images/icons.svg#icon-check-cast"></use>
+                                </svg>
+                            </span> accept the terms and conditions of the <a class="policy" href="#">Privacy policy</a>
+                        </label>
+                    </div>
+                    <button class="form-btn" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
