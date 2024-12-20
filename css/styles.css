@@ -488,11 +488,11 @@ a {
 }
 .foot-form-wrap {
         display: flex;
-        /* gap: 24px; */
+        gap: 24px;
 }
 .foot-form-lbl {
         display: flex;
-        gap: 24px;
+        /* gap: 24px; */
 }
 
 .foot-input {
