@@ -416,7 +416,9 @@ a {
         align-items: baseline;
 }
 .footer-logo-box {
-        margin-right: 120px;
+        margin-right: auto;
+        width: 264px;
+        height: 112px;
 
 }
 
@@ -471,6 +473,65 @@ a {
 .footer-icon {
         fill: #f4f4fd;
 }
+.footer-form {
+        margin-left: auto;
+}
+
+.foot-form-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-left: 24px;
+        margin-bottom: 16px;
+}
+.foot-form-wrap {
+        display: flex;
+        gap: 24px;
+}
+
+.foot-input {
+        width: 264px;
+        height: 40px;
+        padding-left: 16px;
+        /* font-weight: 400; */
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: transparent;
+}
+.foot-input::placeholder {
+        color: #fff;
+}
+
+.foot-btn {
+        display: flex;
+        min-width: 165px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        padding: 8px 24px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        background-color:#4d5ae5;
+        border: none;
+}
+.btn-icon {
+        margin-left: 16px;
+        fill: #fff;
+}
 /* ----------- backdrop ----- */
 .backdrop {
         position: fixed;
@@ -487,9 +548,9 @@ a {
 }
 
 .backdrop.is-open {
-        opacity: 1;
+        /* opacity: 1;
         visibility:visible;
-        pointer-events: auto;
+        pointer-events: auto; */
 
 }
 
@@ -556,7 +617,7 @@ a {
         margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8E8F99;
 }
@@ -602,7 +663,7 @@ a {
         margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8E8F99;
 }
@@ -647,7 +708,7 @@ a {
         margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8E8F99;
 }
@@ -693,7 +754,7 @@ a {
         margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8E8F99;
 }
@@ -713,7 +774,7 @@ a {
 .form-comment::placeholder {
         font-weight: 400;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: rgba(46, 47, 66, 0.4);
 }
@@ -732,7 +793,7 @@ a {
 .form-checkbox-lable {
         font-weight: 400;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
 }
 
@@ -761,7 +822,7 @@ a {
 .form-btn {
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
         color: #fff;
